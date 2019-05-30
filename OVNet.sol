@@ -952,7 +952,6 @@ y
       var2 = Secp256k1._mul(params[1],var1);
 
       var3 = Secp256k1._add(Secp256k1._mul(params[3],yG),var2);
-
       ECCMath.toZ1(var3, pp);
 
       if(b2[0] != var3[0] || b2[1] != var3[1]) {
